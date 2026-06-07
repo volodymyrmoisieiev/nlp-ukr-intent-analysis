@@ -1,0 +1,28 @@
+{
+    "model_name": "TF-IDF + Logistic Regression",
+    "task": "Ukrainian intent classification",
+    "classes": [
+        "Complaint / Dissatisfaction",
+        "Gratitude / Positive Feedback",
+        "Neutral Comment",
+        "Question / Request for Help",
+        "Suggestion / Idea"
+    ],
+    "tfidf_params": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 2,
+        "max_df": 0.95,
+        "max_features": 25000,
+        "sublinear_tf": true
+    },
+    "metrics": {
+        "accuracy": 0.8272884283246977,
+        "macro_precision": 0.6261709914062953,
+        "macro_recall": 0.6810649311349547,
+        "macro_f1": 0.6490726828549616,
+        "weighted_f1": 0.8354008131964633
+    }
+}
