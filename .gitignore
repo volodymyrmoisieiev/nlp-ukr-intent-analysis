@@ -11,15 +11,26 @@ __pycache__/
 
 .env
 .env.*
+.envrc
 *.pem
 *.key
 *.p12
 *.pfx
+*.token
+secrets.*
+credentials.*
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
 
 .gradio/
 
 *.tmp
 *.temp
 *.log
+*.bak
+*.swp
+~$*
 Thumbs.db
 Desktop.ini
